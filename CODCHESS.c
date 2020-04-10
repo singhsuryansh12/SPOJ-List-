@@ -25,16 +25,16 @@ int main(void){
                     board[j+2][k+1] = -1;
                     board[j-2][k-1] = -1;
                     board[j-2][k+1] = -1;
-            //    printf("%d ",board[j][k]);
+              //    printf("%d ",board[j][k]);
                 }
             }
         }
         if(val%2 == 0){
-            printf("%d %d\n",val,1);
+            printf("%d\n",1);
         }
         else{
-            printf("%d %d\n",val, 0);
+            printf("%d\n", 0);
         }
     }
-}
+
 //(a+1,b+2),(a-1,b+2),(a+1,b-2),(a-1,b-2),(a+2,b-1),(a+2,b+1),(a-2,b-1),(a-2,b+1)
